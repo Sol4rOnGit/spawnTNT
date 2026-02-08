@@ -1,0 +1,11 @@
+name: spawnTNT
+version: '1.0'
+main: me.hiresh.tntchaos.spawnTNT.SpawnTNT
+api-version: '1.21'
+
+commands:
+  tntspawner:
+    description: Manage TNT Spawner Plugin
+    usage: /tntspawner <set|start|stop>
+    permission: tntspawner.admin
+    permission-message: "You do not have the permission to use this command."
